@@ -2,7 +2,7 @@ package calculator;
 
 import java.util.Scanner;
 
-public class Input {
+class Input {
 
         public String getInput(String prompt) {
                 Scanner scanner = new Scanner(System.in);
@@ -10,7 +10,7 @@ public class Input {
                 return scanner.nextLine().replace(" ", "");
         }
 
-        public String getMathSymbol(String stringIn) throws Exception {
+        String getMathSymbol(String stringIn) throws Exception {
 
 // counter для проверки количества знаков мат. действий
                 int counter = 0;

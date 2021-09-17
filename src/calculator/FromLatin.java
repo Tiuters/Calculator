@@ -1,8 +1,8 @@
 package calculator;
 
-public class FromLatin {
+class FromLatin {
 
-        public int parseLatin(String str) {
+         int parseLatin(String str) {
                 int latinNum = 0;
                 switch (str) {
                         case "I": latinNum = 1; break;

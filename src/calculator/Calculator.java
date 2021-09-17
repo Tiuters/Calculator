@@ -1,6 +1,6 @@
 package calculator;
 
-public class Calculator {
+class Calculator {
 
         public static void main(String[] args) throws Exception {
 
@@ -44,7 +44,7 @@ public class Calculator {
                 }
         }
 
-        public static void printResult(String res) {
+static void printResult(String res) {
                 System.out.println("Результат: " + res);
         }
 }

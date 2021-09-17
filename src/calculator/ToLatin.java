@@ -1,8 +1,8 @@
 package calculator;
 
-public class ToLatin {
+class ToLatin {
 
-        public String getLatValue(int arabic) {
+        String getLatValue(int arabic) {
                 String latStr = "";
                 int lastNum = arabic % 10;
 
@@ -32,7 +32,7 @@ public class ToLatin {
                 return latStr;
         }
 
-        public String getLat10(int arabic10) {
+        String getLat10(int arabic10) {
                 String latStr = "";
                 switch (arabic10) {
                         case 0: latStr = ""; break;

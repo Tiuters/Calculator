@@ -1,8 +1,8 @@
 package calculator;
 
-public class Values {
+class Values {
 
-        public int getValue(String mathSign, int n1, int n2) {
+        int getValue(String mathSign, int n1, int n2) {
                 int result = 0;
                 switch (mathSign) {
                         case "\\+":
